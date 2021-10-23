@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
         if select == '1':
             username = input('Nombre de usuario(maximo 60 caracteres): ')
-            pswd = input('contrasena(solo 4 caracteres): ')
+            pswd = input('contrasena(solo 4 numeros): ')
             create(username, pswd)        
 
         elif select == '2':
